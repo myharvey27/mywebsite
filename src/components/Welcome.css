@@ -1,0 +1,71 @@
+
+
+.welcome {
+    background-image: url("../webbackground.jpg");
+    background-repeat:no-repeat;
+
+    background-size:cover;
+
+    background-position:center; 
+    
+}
+
+img {  
+    max-width: 80%;  
+    height: auto;  
+    filter: drop-shadow(1.5px 1.5px rgb(39, 5, 43));
+    
+    }  
+
+.myLogo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    
+}
+
+.name {
+    
+    z-index: 2;
+    animation: fadeInAnimation ease 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+.homeButton {
+    max-width: 20%;
+    position: relative;
+    top: 40px;
+    z-index: 2;
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+.unicorn {
+    position: absolute;
+    max-width: 20%;
+    align-items: center;
+    animation: myOrbit 5s linear infinite;
+    z-index: 1;
+}
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
