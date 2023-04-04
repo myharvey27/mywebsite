@@ -16,7 +16,7 @@ const Home_screen= ()=> {
         <div className= 'boarder'>
             <div className='logo'><img src={name}/></div>
             <p className='intro'>
-           438 28th St Hermosa Beach, CA 90245 | 310-560-0151 | myharvey@stanford.edu
+           Stanford University | 310-560-0151 | myharvey@stanford.edu
             </p>
 
             <img className= 'corn1' src={unicorn}/>
