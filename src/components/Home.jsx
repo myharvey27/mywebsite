@@ -2,11 +2,12 @@ import './Home.css'
 import unicorn from '../toy.jpg';
 import name from '../mhfont.jpg';
 import selfie from '../glam.jpg'
-import whiteunicorn from '../unicorn.jpg';
 import console from '../console.jpg';
+import ubs from '../Ubs_logo.png';
 import lucidly from '../lucidly.jpg';
 import glove from '../hand.jpg';
 import pdf from '../myresume.pdf';
+import daikon from '../daikon.jpg';
 
 
 
@@ -21,13 +22,13 @@ const Home_screen= ()=> {
 
             <img className= 'corn1' src={unicorn}/>
             <img className= 'corn2' src={unicorn}/>
+            
             <div className='flex-container2'>
-                <div className='selfie'><img src={selfie}/></div>
-                <div className='description'>
+            <div className='description'>
+            
                     <h1>About Me</h1>
-                    I am pursuing computer science at Stanford  because technology is the future of society. The way  builders like myself design these future technological social systems will have the greatest impact on how our society defines itself and its marginal communities. I am passionate about helping others find opportunity within themselves. Technological design for behavior change is where my current research interests lie. I am interested in equitable finance as well as how to empower people without strong financial educational backgrounds to reimagine their financial futures. My professional goals are to design behavior changing mechanisms and ethical technological tools for large scale social and financial systems. These range from reforming system architecture, to creating equitable groupware, to designing assistive and habit changing technologies. I am committed to approaching all of my future projects with a feminist lens to better support communities that may not always be represented by the standard user. I also love fashion and the beach!
+                    I am pursuing my masters in computer science at Stanford because technology is the future of society. The way creatives like myself design and consult for these future technological social systems will have the greatest impact on how our society defines itself and its marginal communities. I am particularly interested in the video game industry and building community through fun. I hope to pursue business endeavors that empower young designers and developers to push the boundaries of gaming to create a more equitable atmosphere for gamers of all kinds. My professional goals are to push behavior changing mechanisms and ethical technological tools for large scale social systems to the vanguard of current topics in tech and business.
                 </div>
- 
 
             </div>
             <div className='flex-container1'>
@@ -35,6 +36,11 @@ const Home_screen= ()=> {
                     <h1>
                     Design Projects
                     </h1>
+                    <p> * Designed a and implemented a platformer video game using Godot game engine with original narrative, art, puzzles, music and code. 
+                        Practiced task delegation and giving and receiving feedback from playtesters and team members. Below is full documentation
+                        of the process along with links to playthroughs and code.
+                    </p>
+                    <a href='https://drive.google.com/file/d/1FVyyxDsUYfy7hfw1RPPxUzUFpgeN2wXB/view?pli=1'><img src={daikon} className='bullets'/></a>
                     <p> * Designed and implemented an app prototype for equitable healthcare with a novice design team. Utilized the design process from needfinding
                         to reflective prototyping. Explored transferring Figma design to React Native with an iOS simulator. Click the image below!
                     </p>
@@ -49,6 +55,13 @@ const Home_screen= ()=> {
                     <h1>
                     Software Projects
                     </h1>
+                    <p>
+                        * Interned as a Software Engineer at UBS. Implemented the “View Beneficiaries” page for UBS's Wealth Management Americas online service website. 
+                        Developed strong workplace skills like communication and leadership by utilizing the Agile business model, managed weekly team 
+                        reports on top of individual development work.
+
+                    </p>
+                    <img src={ubs} className='bullets'></img>
                     <p> * Full Stack Photo Sharing Application with functioning React Frontend and Backend. 
                     Used REST APIs to communicate with the DOM and Database using GET, PUT, and POST HTTP requests.
                     Developed a solid understanding of browsers, links, and routers. </p>
