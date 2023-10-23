@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mywebsite/static/css/main.4752ef9b.css",
-    "main.js": "/mywebsite/static/js/main.4d9912d3.js",
+    "main.js": "/mywebsite/static/js/main.aa929787.js",
     "static/js/787.e1a841de.chunk.js": "/mywebsite/static/js/787.e1a841de.chunk.js",
     "static/media/glittery.jpg": "/mywebsite/static/media/glittery.2e52648af954ddf3b639.jpg",
     "static/media/webbackground.jpg": "/mywebsite/static/media/webbackground.a5a59f4fbcdbaf6233cb.jpg",
@@ -12,18 +12,18 @@
     "static/media/daikon.jpg": "/mywebsite/static/media/daikon.1f8a9401d5a0675a3877.jpg",
     "static/media/unicorn.jpg": "/mywebsite/static/media/unicorn.207496aef7b94e4af0d2.jpg",
     "static/media/Ubs_logo.png": "/mywebsite/static/media/Ubs_logo.bbd86cfe91e09ce5d3c9.png",
-    "static/media/myresume.pdf": "/mywebsite/static/media/myresume.c3f0022020770e78f065.pdf",
+    "static/media/newresume.pdf": "/mywebsite/static/media/newresume.25cd067a7d45a2c2857c.pdf",
     "static/media/lucidly.jpg": "/mywebsite/static/media/lucidly.7b054f47515018b5c1c6.jpg",
     "static/media/darklove.jpg": "/mywebsite/static/media/darklove.21b0082397ccc346050a.jpg",
     "static/media/mhfont.jpg": "/mywebsite/static/media/mhfont.b357b491c35e385c1b08.jpg",
     "static/media/homebutton.jpg": "/mywebsite/static/media/homebutton.07a9ee2f59f0515d7919.jpg",
     "index.html": "/mywebsite/index.html",
     "main.4752ef9b.css.map": "/mywebsite/static/css/main.4752ef9b.css.map",
-    "main.4d9912d3.js.map": "/mywebsite/static/js/main.4d9912d3.js.map",
+    "main.aa929787.js.map": "/mywebsite/static/js/main.aa929787.js.map",
     "787.e1a841de.chunk.js.map": "/mywebsite/static/js/787.e1a841de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4752ef9b.css",
-    "static/js/main.4d9912d3.js"
+    "static/js/main.aa929787.js"
   ]
 }
