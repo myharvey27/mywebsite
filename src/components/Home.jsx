@@ -40,15 +40,16 @@ const Home_screen= ()=> {
                         Practiced task delegation and giving and receiving feedback from playtesters and team members. Below is full documentation
                         of the process along with links to playthroughs and code.
                     </p>
-                    <a href='https://drive.google.com/file/d/1FVyyxDsUYfy7hfw1RPPxUzUFpgeN2wXB/view?pli=1'><img src={daikon} className='bullets'/></a>
+                    <a href='https://drive.google.com/file/d/1FVyyxDsUYfy7hfw1RPPxUzUFpgeN2wXB/view?pli=1' target="_blank"><img src={daikon} className='bullets'/></a>
                     <p> * Designed and implemented an app prototype for equitable healthcare with a novice design team. Utilized the design process from needfinding
                         to reflective prototyping. Explored transferring Figma design to React Native with an iOS simulator. Click the image below!
                     </p>
 
-                    <a href='https://hci.stanford.edu/courses/cs147/2022/au/projects/EquitableHealthcare/lucIDLy/'><img src={lucidly} className='bullets'/></a>
+                    <a href='https://hci.stanford.edu/courses/cs147/2022/au/projects/EquitableHealthcare/lucIDLy/' target="_blank"><img src={lucidly} className='bullets'/></a>
                     <p> * Modeled financial transactions using a gestural interface to improve spending awareness. Apple pay users are around 34% more likely to be in debt than card or cash users, so I prototyped a glove mounted with an arduino that requires users to count on their 
-                        fingers how much they spend at a cash register to mitigate mindless payment.</p>
-                       <img src={glove} className='bullets'></img>
+                        fingers how much they spend at a cash register to mitigate mindless payment. View my findings below.</p>
+                        <a href='https://docs.google.com/document/u/1/d/e/2PACX-1vS6MsfsoFOh7FMtJjUy4eCiSf4eJ9VdXRo_S7WFD4ciynZZRO7TBW8snzVqRWLnSlXHM52wO3vOKN2M/pub' target="_blank">
+                            <img src={glove} className='bullets'></img></a>
                 </div>
                 <div className ='equalHW'>
                 
@@ -64,8 +65,8 @@ const Home_screen= ()=> {
                     <img src={ubs} className='bullets'></img>
                     <p> * Full Stack Photo Sharing Application with functioning React Frontend and Backend. 
                     Used REST APIs to communicate with the DOM and Database using GET, PUT, and POST HTTP requests.
-                    Developed a solid understanding of browsers, links, and routers. </p>
-                    <iframe src="https://player.vimeo.com/video/716283129?h=9a34c054c1"></iframe>
+                    Developed a solid understanding of browsers, links, and routers. Watch a walkthrough video below.</p>
+                    <iframe src="https://player.vimeo.com/video/716283129?h=9a34c054c1" target="_blank"></iframe>
                     <p> * Bare metal programmed a full computer shell on Raspberry Pi using command line. 
                     Compiled libraries beginning with the microprocessor and ending in C including: programs for navigating the ARM architecture, 
                     formatting strings, creating a stack and heap allocator, keyboard and graphics, and a system monitor with interrupts for concurrency.
@@ -79,8 +80,8 @@ const Home_screen= ()=> {
             <p className='intro'>
               
             <a href={pdf}>Resume</a> |  
-            <a href='https://gostanford.com/sports/womens-beach-volleyball/roster/maya-harvey/19782'>Roster Bio</a> | 
-            <a href='https://www.youtube.com/watch?v=HSmKiws-4NU&t=3s'>Bret Hart</a>
+            <a href='https://gostanford.com/sports/womens-beach-volleyball/roster/maya-harvey/19782' target="_blank">Roster Bio</a> | 
+            <a href='https://linkedin.com/in/maya-harvey-4a52b828b' target="_blank">Linkedin</a>
             </p>
        
         <p className='sign'>Maya Harvey 2023</p>
