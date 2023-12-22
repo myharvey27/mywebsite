@@ -36,7 +36,7 @@ const Home_screen= ()=> {
                     <h1>
                     Design Projects
                     </h1>
-                    <p> * Designed a and implemented a platformer video game using Godot game engine with original narrative, art, puzzles, music and code. 
+                    <p> * Designed and implemented a platformer video game using Godot game engine with original narrative, art, puzzles, music and code. 
                         Practiced task delegation and giving and receiving feedback from playtesters and team members. Below is full documentation
                         of the process along with links to playthroughs and code.
                     </p>
@@ -79,7 +79,7 @@ const Home_screen= ()=> {
             
             <p className='intro'>
               
-            <a href={pdf}>Resume</a> |  
+            <a href={pdf} target="_blank">Resume</a> |  
             <a href='https://gostanford.com/sports/womens-beach-volleyball/roster/maya-harvey/19782' target="_blank">Roster Bio</a> | 
             <a href='https://linkedin.com/in/maya-harvey-4a52b828b' target="_blank">Linkedin</a>
             </p>
