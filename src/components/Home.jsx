@@ -6,7 +6,7 @@ import console from '../console.jpg';
 import ubs from '../Ubs_logo.png';
 import lucidly from '../lucidly.jpg';
 import glove from '../hand.jpg';
-import pdf from '../newresume.pdf';
+import pdf from '../MH_cur_resume.pdf';
 import daikon from '../daikon.jpg';
 
 
